@@ -1,0 +1,434 @@
+.secured-loans {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 72px;
+  font-style: italic;
+  font-weight: 500;
+  font-family: inherit;
+}
+.loan-card-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-lgi);
+  background-color: var(--website-color);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.screenshot-2024-07-21-at-216-icon {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  object-fit: contain;
+  position: absolute;
+  left: 11px;
+  top: 17px;
+  transform: scale(1.276);
+}
+.wrapper-screenshot-2024-07-21- {
+  position: absolute;
+  top: 36px;
+  left: 45px;
+  width: 229px;
+  height: 219px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.shapes2 {
+  position: absolute;
+  top: 190px;
+  left: 376px;
+  background-color: var(--color-deepskyblue);
+  width: 241px;
+  height: 60px;
+  z-index: 1;
+}
+.home-loans {
+  position: relative;
+  line-height: 35px;
+  font-weight: 600;
+  z-index: 1;
+}
+.buttons,
+.loan-names {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buttons {
+  align-self: stretch;
+  gap: var(--gap-5xs);
+  font-size: var(--font-size-lgi-9);
+  font-family: var(--font-poppins);
+}
+.loan-names {
+  position: absolute;
+  top: 36px;
+  left: 372px;
+  width: 241px;
+  gap: var(--gap-3xl);
+}
+.loan-card,
+.loan-card-item {
+  border-radius: var(--br-lgi);
+  background-color: var(--website-color);
+}
+.loan-card {
+  height: 302px;
+  flex: 1;
+  position: relative;
+  min-width: 439px;
+  max-width: 100%;
+}
+.loan-card-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.screenshot-2024-07-21-at-322-icon {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  object-fit: contain;
+  position: absolute;
+  left: 7px;
+  top: 7px;
+  transform: scale(1.271);
+}
+.wrapper-screenshot-2024-07-21-1 {
+  position: absolute;
+  top: 56px;
+  left: 73px;
+  width: 187px;
+  height: 190px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loan-card-inner {
+  position: absolute;
+  top: 190px;
+  left: 364px;
+  background-color: var(--color-deepskyblue);
+  width: 241px;
+  height: 60px;
+  z-index: 1;
+}
+.lap-loans {
+  position: relative;
+  line-height: 35px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 128px;
+  z-index: 1;
+}
+.frame-container,
+.lap-loans-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-container {
+  align-self: stretch;
+  gap: var(--gap-5xs);
+}
+.lap-loans-parent {
+  position: absolute;
+  top: 36px;
+  left: 360px;
+  width: 241px;
+  gap: var(--gap-3xl);
+}
+.loan-card1 {
+  height: 302px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-lgi);
+  background-color: var(--website-color);
+  min-width: 439px;
+  max-width: 100%;
+}
+.loan-cards,
+.loan-type {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.loan-cards {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-5xl);
+  font-size: var(--h2-size);
+  color: var(--color-white);
+  font-family: var(--h3);
+}
+.loan-type {
+  flex-direction: column;
+  gap: var(--gap-23xl);
+}
+.unsecured-loans {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 72px;
+  font-style: italic;
+  font-weight: 500;
+  font-family: inherit;
+}
+.loan-card-child1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-lgi);
+  background-color: var(--website-color);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.images {
+  position: absolute;
+  top: 190px;
+  left: 376px;
+  background-color: var(--color-deepskyblue);
+  width: 241px;
+  height: 60px;
+  z-index: 1;
+}
+.personal-loan1 {
+  position: relative;
+  line-height: 35px;
+  font-weight: 600;
+  z-index: 1;
+}
+.buttons1,
+.personal-loan {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buttons1 {
+  align-self: stretch;
+  gap: var(--gap-5xs);
+}
+.personal-loan {
+  position: absolute;
+  top: 36px;
+  left: 372px;
+  width: 241px;
+  gap: var(--gap-3xl);
+}
+.screenshot-2024-07-21-at-335-icon {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  object-fit: contain;
+  position: absolute;
+  left: 6px;
+  top: 11px;
+  transform: scale(1.243);
+}
+.wrapper-screenshot-2024-07-21-2 {
+  position: absolute;
+  top: 47px;
+  left: 47px;
+  width: 218px;
+  height: 203px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loan-card-child2,
+.loan-card2 {
+  border-radius: var(--br-lgi);
+  background-color: var(--website-color);
+}
+.loan-card2 {
+  height: 302px;
+  flex: 1;
+  position: relative;
+  min-width: 439px;
+  max-width: 100%;
+}
+.loan-card-child2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.screenshot-2024-07-21-at-340-icon {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  object-fit: contain;
+  position: absolute;
+  left: 9px;
+  top: 13px;
+  transform: scale(1.175);
+}
+.wrapper-screenshot-2024-07-21-3 {
+  position: absolute;
+  top: 54px;
+  left: 73px;
+  width: 205px;
+  height: 215px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loan-card-child3 {
+  position: absolute;
+  top: 190px;
+  left: 364px;
+  background-color: var(--color-deepskyblue);
+  width: 241px;
+  height: 60px;
+  z-index: 1;
+}
+.business-loan {
+  position: relative;
+  line-height: 35px;
+  font-weight: 600;
+  z-index: 1;
+}
+.business-loan-parent,
+.buttons2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buttons2 {
+  align-self: stretch;
+  gap: var(--gap-5xs);
+}
+.business-loan-parent {
+  position: absolute;
+  top: 36px;
+  left: 360px;
+  width: 241px;
+  gap: var(--gap-3xl);
+}
+.loan-card3 {
+  height: 302px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-lgi);
+  background-color: var(--website-color);
+  min-width: 439px;
+  max-width: 100%;
+}
+.loan-cards1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+  font-size: var(--h2-size);
+  color: var(--color-white);
+  font-family: var(--h3);
+}
+.loan-type1 {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-13xl);
+}
+.container-container,
+.container2,
+.loan-type1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.container2 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-23xl);
+}
+.container-container {
+  width: 1388px;
+  flex-direction: row;
+  padding: 0 var(--padding-6xs) var(--padding-46xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--h1-size);
+  color: var(--body);
+  font-family: var(--h1);
+}
+@media screen and (max-width: 1050px) {
+  .container-container {
+    padding-bottom: var(--padding-23xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .secured-loans {
+    font-size: var(--font-size-10xl);
+    line-height: 58px;
+  }
+  .loan-card,
+  .loan-card1 {
+    min-width: 100%;
+  }
+  .loan-type {
+    gap: var(--gap-2xl);
+  }
+  .unsecured-loans {
+    font-size: var(--font-size-10xl);
+    line-height: 58px;
+  }
+  .loan-card2,
+  .loan-card3 {
+    min-width: 100%;
+  }
+  .loan-type1 {
+    gap: var(--gap-base);
+  }
+  .container2 {
+    gap: var(--gap-2xl);
+  }
+  .container-container {
+    padding-bottom: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .secured-loans {
+    font-size: var(--font-size-3xl);
+    line-height: 43px;
+  }
+  .home-loans,
+  .lap-loans {
+    font-size: var(--h3-size);
+    line-height: 28px;
+  }
+  .unsecured-loans {
+    font-size: var(--font-size-3xl);
+    line-height: 43px;
+  }
+  .business-loan,
+  .personal-loan1 {
+    font-size: var(--h3-size);
+    line-height: 28px;
+  }
+}

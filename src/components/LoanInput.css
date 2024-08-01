@@ -1,0 +1,225 @@
+.loan-input-child {
+  width: 732px;
+  height: 185px;
+  position: relative;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.loan-amount1 {
+  position: relative;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  font-weight: 600;
+  z-index: 2;
+}
+.loan-amount-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0 0;
+}
+.input-container-child {
+  height: 39px;
+  width: 196px;
+  position: relative;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-lavender);
+  display: none;
+}
+.div5 {
+  position: relative;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 123px;
+  z-index: 3;
+}
+.container3,
+.input-container1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.input-container1 {
+  width: 196px;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-lavender);
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-14xl) var(--padding-11xs);
+  box-sizing: border-box;
+  white-space: nowrap;
+  z-index: 2;
+  color: var(--button);
+}
+.container3 {
+  width: 663px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.input-placeholder,
+.value-input,
+.value-input-child {
+  position: absolute;
+  left: 0;
+  border-radius: var(--br-5xl);
+}
+.value-input-child {
+  top: 0;
+  background-color: var(--color-lavender);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.input-placeholder,
+.value-input {
+  height: 1px;
+}
+.input-placeholder {
+  top: 0;
+  box-shadow: 0 0 4px #7fa3ff inset;
+  background-color: var(--color-mediumslateblue);
+  width: 96px;
+  z-index: 3;
+}
+.value-input {
+  top: 9px;
+  background-color: var(--color-lavender);
+  width: 661px;
+  z-index: 2;
+}
+.decrement,
+.increment {
+  position: absolute;
+  border-radius: 50%;
+}
+.decrement {
+  top: 0;
+  left: 0;
+  background: linear-gradient(180deg, #6373ff, #3b4599);
+  width: 100%;
+  height: 100%;
+  z-index: 4;
+}
+.increment {
+  top: 5px;
+  left: 5px;
+  background-color: var(--color-cornflowerblue-300);
+  width: 15px;
+  height: 5px;
+  z-index: 5;
+}
+.value-btn {
+  position: absolute;
+  top: 0;
+  left: 87px;
+  width: 25px;
+  height: 15px;
+}
+.value-input-parent {
+  height: 15px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.container4 {
+  width: 665px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.cr1,
+.l4,
+.l5,
+.l6,
+.l7 {
+  width: 28px;
+  position: relative;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.cr1,
+.l5,
+.l6,
+.l7 {
+  width: 41px;
+}
+.cr1,
+.l6,
+.l7 {
+  width: 58px;
+}
+.cr1,
+.l7 {
+  width: 39px;
+}
+.cr1 {
+  width: 55px;
+}
+.input-unit {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.loan-input,
+.loan-input1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.loan-input1 {
+  align-self: stretch;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-base);
+  color: var(--color-gray-200);
+}
+.loan-input {
+  flex: 1;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-white);
+  padding: var(--padding-12xl) var(--padding-7xs) var(--padding-5xl)
+    var(--padding-18xl);
+  box-sizing: border-box;
+  gap: var(--gap-17xl);
+  min-width: 476px;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--h3-size);
+  color: var(--website-color);
+  font-family: var(--h3);
+}
+@media screen and (max-width: 750px) {
+  .container3 {
+    flex-wrap: wrap;
+  }
+  .loan-input {
+    gap: var(--gap-lg);
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .loan-amount1 {
+    font-size: var(--font-size-base);
+  }
+  .input-unit {
+    flex-wrap: wrap;
+  }
+}

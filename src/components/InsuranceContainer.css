@@ -1,0 +1,496 @@
+.frame-child4 {
+  width: 252.6px;
+  height: 243.7px;
+  position: relative;
+  border-radius: 23.83px;
+  background-color: var(--website-color);
+  display: none;
+}
+.screenshot-2024-06-20-at-423-icon {
+  width: 147.1px;
+  height: 138.2px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.health-insurance {
+  height: 21px;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  font-weight: 500;
+  display: inline-block;
+  text-shadow: 0 2.7px 16.14px rgba(255, 255, 255, 0.27);
+  z-index: 1;
+}
+.insurance-type-names {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 0 var(--padding-12xs);
+}
+.frame-child5,
+.insurance-types-child,
+.rectangle-container {
+  border-radius: 23.83px;
+  background-color: var(--website-color);
+}
+.rectangle-container {
+  flex: 0.8998;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-21xl-2) var(--padding-31xl) var(--padding-10xl-1);
+  box-sizing: border-box;
+  gap: var(--gap-base-2);
+  min-width: 164px;
+}
+.frame-child5,
+.insurance-types-child {
+  height: 243.7px;
+}
+.insurance-types-child {
+  border: 0;
+  width: auto;
+  outline: 0;
+  flex: 0.829;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xl) var(--padding-37xl) var(--padding-10xl-7);
+  box-sizing: border-box;
+  font-family: var(--h3);
+  font-weight: 500;
+  font-size: var(--font-size-base-3);
+  color: var(--color-white);
+  text-shadow: 0 2.7px 16.14px rgba(255, 255, 255, 0.27);
+  min-width: 164px;
+}
+.frame-child5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 252.6px;
+}
+.crop-insaurance {
+  position: absolute;
+  top: 194px;
+  left: 56px;
+  letter-spacing: 0.03em;
+  font-weight: 500;
+  display: inline-block;
+  width: 140.3px;
+  text-shadow: 0 2.7px 16.14px rgba(255, 255, 255, 0.27);
+  z-index: 1;
+}
+.rectangle-parent1 {
+  height: 243.7px;
+  width: 40.4px;
+  position: relative;
+  font-size: var(--font-size-base-3);
+}
+.insurance-types {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xl-2);
+}
+.insurance-document-details-child {
+  width: 311px;
+  height: 412.2px;
+  position: relative;
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+  display: none;
+}
+.required-document-list {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  font-weight: 500;
+  z-index: 2;
+}
+.required-document-list-for-the-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-3xs);
+}
+.address-proof,
+.age-proof,
+.identity-proof,
+.income-proof,
+.medical-reports {
+  margin-bottom: 0;
+}
+.identity-proof-address-proof-a {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-8xl);
+}
+.identity-proof-address-container {
+  width: 244px;
+  height: 205.6px;
+  position: relative;
+  line-height: 30px;
+  color: var(--body);
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.insurance-document-details,
+.insurance-document-details-item {
+  width: 311px;
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+}
+.insurance-document-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xl-4) var(--padding-lgi) var(--padding-83xl-8)
+    var(--padding-3xl);
+  box-sizing: border-box;
+  gap: var(--gap-11xl-4);
+  z-index: 1;
+}
+.insurance-document-details-item {
+  height: 412.2px;
+  position: relative;
+  display: none;
+}
+.benefits-of-policy {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  font-weight: 500;
+  z-index: 2;
+}
+.benefits-of-policy-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs) 0 var(--padding-8xs);
+}
+.cashless-hospitalization,
+.financial-protection,
+.no-claim-bonus,
+.tax-benefits {
+  margin-bottom: 0;
+}
+.cashless-hospitalization-finan {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-8xl);
+}
+.cashless-hospitalization-finan-container {
+  width: 258px;
+  height: 205.6px;
+  position: relative;
+  line-height: 30px;
+  color: var(--body);
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.insurance-document-details-inner,
+.insurance-document-details1 {
+  width: 311px;
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+}
+.insurance-document-details1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xl-4) var(--padding-2xl) var(--padding-84xl-8);
+  box-sizing: border-box;
+  gap: var(--gap-33xl-9);
+  z-index: 1;
+}
+.insurance-document-details-inner {
+  height: 412.2px;
+  position: relative;
+  display: none;
+}
+.features-of-policy {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  font-weight: 500;
+  z-index: 2;
+}
+.features-of-policy-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs) 0 var(--padding-8xs);
+}
+.co-payment,
+.network-hospitals,
+.policy-term,
+.premium,
+.room-rent-limit,
+.sum-insured {
+  margin-bottom: 0;
+}
+.sum-insured-premium-policy-ter {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-8xl);
+}
+.sum-insured-premium-container {
+  width: 257px;
+  height: 205.6px;
+  position: relative;
+  line-height: 30px;
+  color: var(--body);
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.insurance-document-details2 {
+  width: 311px;
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xl-4) var(--padding-3xl) var(--padding-84xl-8);
+  box-sizing: border-box;
+  gap: var(--gap-33xl-9);
+  z-index: 1;
+}
+.union-icon {
+  height: 470.7px;
+  width: 1374px;
+  position: absolute;
+  margin: 0 !important;
+  top: -43.8px;
+  left: -989px;
+}
+.frame-child6 {
+  width: 369px;
+  height: 412.2px;
+  position: relative;
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.what-is-covered {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  font-weight: 500;
+  z-index: 2;
+}
+.what-is-covered-under-the-insu-wrapper {
+  width: 270px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs);
+  box-sizing: border-box;
+}
+.ambulance-charges,
+.critical-illness-coverage,
+.daycare-procedures,
+.domiciliary-treatment,
+.in-patient-hospitalization,
+.maternity-benefits,
+.organ-donor-expenses,
+.pre-and-post-hospitalization {
+  margin-bottom: 0;
+}
+.in-patient-hospitalization-pre {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-8xl);
+}
+.in-patient-hospitalization-pre-container {
+  width: 306px;
+  height: 264.4px;
+  position: relative;
+  line-height: 30px;
+  color: var(--body);
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.rectangle-parent2 {
+  flex: 1;
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xl-4) var(--padding-xl) var(--padding-26xl)
+    var(--padding-3xl);
+  box-sizing: border-box;
+  gap: var(--gap-10xl-4);
+  max-width: 100%;
+  z-index: 1;
+}
+.insurance-document-container,
+.union-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.union-parent {
+  justify-content: flex-start;
+  position: relative;
+  min-width: 240px;
+}
+.insurance-document-container {
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-sm);
+}
+.insurance-details {
+  width: 1370.6px;
+  flex-direction: row;
+  padding: 0 var(--padding-smi);
+  box-sizing: border-box;
+  font-size: var(--h3-size);
+  color: var(--color-black);
+}
+.insurance-container,
+.insurance-details,
+.insurance-types-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.insurance-types-container {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-61xl-4);
+}
+.insurance-container {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 var(--padding-84xl-7) var(--padding-5xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-mid-3);
+  color: var(--color-white);
+  font-family: var(--h3);
+}
+@media screen and (max-width: 1225px) {
+  .insurance-types {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .insurance-container {
+    padding-bottom: var(--padding-48xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .insurance-types-container {
+    gap: var(--gap-21xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .rectangle-container {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+    flex: 1;
+  }
+  .insurance-types-child {
+    flex: 1;
+  }
+  .required-document-list {
+    font-size: var(--font-size-base);
+  }
+  .identity-proof-address-container {
+    font-size: var(--font-size-base);
+    line-height: 24px;
+  }
+  .insurance-document-details {
+    gap: var(--gap-mini);
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-48xl);
+    box-sizing: border-box;
+  }
+  .benefits-of-policy {
+    font-size: var(--font-size-base);
+  }
+  .cashless-hospitalization-finan-container {
+    font-size: var(--font-size-base);
+    line-height: 24px;
+  }
+  .insurance-document-details1 {
+    gap: var(--gap-7xl);
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-48xl);
+    box-sizing: border-box;
+  }
+  .features-of-policy,
+  .sum-insured-premium-container {
+    font-size: var(--font-size-base);
+  }
+  .sum-insured-premium-container {
+    line-height: 24px;
+  }
+  .insurance-document-details2 {
+    gap: var(--gap-7xl);
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-48xl);
+    box-sizing: border-box;
+  }
+  .what-is-covered {
+    font-size: var(--font-size-base);
+  }
+  .in-patient-hospitalization-pre-container {
+    font-size: var(--font-size-base);
+    line-height: 24px;
+  }
+  .rectangle-parent2 {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+  .insurance-types-container {
+    gap: var(--gap-xl);
+  }
+  .insurance-container {
+    padding-bottom: var(--padding-25xl);
+    box-sizing: border-box;
+  }
+}

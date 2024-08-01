@@ -1,0 +1,92 @@
+.text4 {
+  margin: 0;
+  position: absolute;
+  top: 14px;
+  left: 64px;
+  font-size: inherit;
+  line-height: 72px;
+  display: flex;
+  font-style: italic;
+  font-weight: 500;
+  font-family: inherit;
+  align-items: center;
+  width: 226px;
+  height: 37px;
+}
+.noise-icon4 {
+  position: absolute;
+  height: calc(100% - 5px);
+  top: 0;
+  bottom: 5px;
+  left: 60px;
+  border-radius: var(--br-48xl);
+  max-height: 100%;
+  width: 234px;
+  object-fit: cover;
+  mix-blend-mode: overlay;
+  z-index: 1;
+}
+.button4 {
+  height: 60px;
+  flex: 1;
+  position: relative;
+  box-shadow: 0 0 1px 4px rgba(255, 255, 255, 0.1),
+    0-4px 2px rgba(0, 0, 0, 0.25) inset,
+    0 2px 1px rgba(255, 255, 255, 0.25) inset;
+  background: radial-gradient(50% 50%at 50% 50%, #1449d3, #020058);
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 100%;
+}
+.e-m-i-calculator-description {
+  width: 356px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.samriddhs-emi-calculator {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--h3-size);
+  line-height: 30px;
+  font-family: var(--h3);
+  color: var(--body);
+}
+.e-m-i-calculator-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-15xl);
+  max-width: 100%;
+}
+.e-m-i-calculator-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xs) 0 var(--padding-7xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--h1-size);
+  color: var(--color-white);
+  font-family: var(--h1);
+}
+@media screen and (max-width: 750px) {
+  .e-m-i-calculator-content {
+    gap: var(--gap-mid);
+  }
+}
+@media screen and (max-width: 450px) {
+  .samriddhs-emi-calculator {
+    font-size: var(--font-size-base);
+    line-height: 24px;
+  }
+}

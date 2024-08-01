@@ -1,0 +1,61 @@
+.text3 {
+  margin: 0;
+  position: absolute;
+  top: 14.5px;
+  left: 64px;
+  font-size: inherit;
+  line-height: 72px;
+  display: flex;
+  font-style: italic;
+  font-weight: 500;
+  font-family: inherit;
+  align-items: center;
+  width: 134px;
+  height: 37px;
+}
+.noise-icon3 {
+  position: absolute;
+  top: 0;
+  left: -8px;
+  border-radius: var(--br-48xl);
+  width: 234px;
+  height: 55px;
+  object-fit: cover;
+  mix-blend-mode: overlay;
+  z-index: 1;
+}
+.button3 {
+  height: 70px;
+  flex: 1;
+  position: relative;
+  box-shadow: 0 0 180px #4e65de, 0 0 1px 4px rgba(255, 255, 255, 0.1),
+    0-4px 2px rgba(0, 0, 0, 0.25) inset,
+    0 2px 1px rgba(255, 255, 255, 0.25) inset;
+  background: radial-gradient(50% 50%at 50% 50%, #1449d3, #020058);
+  overflow: hidden;
+}
+.loan-options {
+  width: 237px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) var(--padding-sm) 0;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--h1-size);
+  color: var(--color-white);
+  font-family: var(--h1);
+}
+@media screen and (max-width: 750px) {
+  .text3 {
+    font-size: var(--font-size-10xl);
+    line-height: 58px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .text3 {
+    font-size: var(--font-size-3xl);
+    line-height: 43px;
+  }
+}

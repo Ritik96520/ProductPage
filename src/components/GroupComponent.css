@@ -1,0 +1,59 @@
+.frame-child3 {
+  width: 252.6px;
+  height: 243.7px;
+  position: relative;
+  border-radius: 23.83px;
+  background-color: var(--website-color);
+  display: none;
+}
+.screenshot-2024-06-23-at-1257-icon {
+  align-self: stretch;
+  height: 114.4px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  z-index: 1;
+}
+.life-insurance {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.03em;
+  font-weight: 500;
+  text-shadow: 0 2.7px 16.14px rgba(255, 255, 255, 0.27);
+  z-index: 1;
+}
+.life-insurance-wrapper,
+.rectangle-group {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.life-insurance-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-base) 0 var(--padding-smi);
+}
+.rectangle-group {
+  flex: 0.8998;
+  border-radius: 23.83px;
+  background-color: var(--website-color);
+  flex-direction: column;
+  padding: var(--padding-36xl-1) var(--padding-31xl) var(--padding-10xl-1);
+  box-sizing: border-box;
+  gap: var(--gap-5xl-1);
+  min-width: 164px;
+  text-align: left;
+  font-size: var(--font-size-mid-3);
+  color: var(--color-white);
+  font-family: var(--h3);
+}
+@media screen and (max-width: 450px) {
+  .rectangle-group {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+    flex: 1;
+  }
+}

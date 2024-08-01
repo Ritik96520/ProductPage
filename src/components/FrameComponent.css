@@ -1,0 +1,507 @@
+.how-to-use2 {
+  position: relative;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  display: inline-block;
+  min-width: 122px;
+}
+.container6 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs);
+}
+.current-outstanding-loan,
+.current-rate-of,
+.emi-paid-in,
+.loan-tenure-in {
+  margin-bottom: 0;
+}
+.current-outstanding-loan-amoun {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-8xl);
+}
+.current-outstanding-loan-container {
+  position: relative;
+  line-height: 30px;
+  color: var(--body);
+}
+.container-item,
+.container5 {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.container5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-7xs);
+  gap: var(--gap-15xl);
+}
+.container-item {
+  width: 1374px;
+  height: 1007px;
+  position: relative;
+  box-shadow: 1px 4px 53.7px rgba(0, 0, 0, 0.08);
+  border-radius: var(--br-5xs);
+  background: linear-gradient(180deg, #00225d, #00163b);
+  border: 1px solid var(--color-cornflowerblue-200);
+  display: none;
+}
+.calculate-emi-interest1 {
+  position: relative;
+  line-height: 35px;
+  font-weight: 600;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.input-fields1 {
+  flex-direction: row;
+  gap: var(--gap-3xs);
+}
+.container9,
+.input-fields1,
+.tenure-input {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.tenure-input {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-3xs);
+}
+.container9 {
+  flex-direction: column;
+  gap: var(--gap-lgi);
+}
+.new-rate-info-child {
+  height: 185px;
+  width: 540px;
+  position: relative;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.new-interest-rate {
+  position: relative;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  font-weight: 600;
+  z-index: 2;
+}
+.container11 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) 0 0;
+}
+.container-inner,
+.rate-value-child {
+  height: 39px;
+  width: 196px;
+  position: relative;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-lavender);
+  display: none;
+}
+.container-inner {
+  width: 123px;
+  background-color: var(--color-darkslateblue-100);
+}
+.btn-icon1,
+.months1 {
+  position: relative;
+  z-index: 4;
+}
+.months1 {
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 76px;
+}
+.btn-icon1 {
+  width: 9px;
+  height: 1px;
+}
+.container12,
+.value-btn2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs-5) 0 0;
+}
+.container12 {
+  flex: 1;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-darkslateblue-100);
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-xs) var(--padding-10xs);
+  gap: var(--gap-3xs);
+  z-index: 3;
+}
+.rate-value1 {
+  position: relative;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 14px;
+  z-index: 3;
+}
+.calculated-rate,
+.rate-value {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-11xs);
+  color: var(--button);
+}
+.rate-value {
+  width: 196px;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-lavender);
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-11xl);
+  z-index: 2;
+  color: var(--color-white);
+}
+.container10,
+.new-rate-info {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.new-rate-info {
+  width: 540px;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-white);
+  justify-content: space-between;
+  padding: var(--padding-54xl) var(--padding-14xl) var(--padding-54xl)
+    var(--padding-9xl);
+  box-sizing: border-box;
+  min-width: 540px;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.container10 {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.container-child1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--color-white);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.indicator,
+.indicator1,
+.indicator2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro);
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.indicator1,
+.indicator2 {
+  background-color: var(--color-mediumslateblue);
+  z-index: 3;
+}
+.indicator2 {
+  top: 31.8px;
+  left: 31.8px;
+  background-color: var(--color-white);
+  width: 170.8px;
+  height: 160.8px;
+  z-index: 4;
+}
+.calculation-indicator {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.saving-display {
+  height: 223px;
+  flex: 1;
+  position: relative;
+}
+.container14 {
+  position: absolute;
+  top: 64px;
+  left: 236px;
+  width: 233px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.calculation-placeholder,
+.calculation-placeholder1 {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gainsboro);
+  width: 26px;
+  height: 5px;
+  z-index: 2;
+}
+.calculation-placeholder1 {
+  left: 488px;
+  background-color: var(--color-mediumslateblue);
+}
+.monthly-emi-saved,
+.new-emi1 {
+  position: relative;
+  letter-spacing: 0.03em;
+  z-index: 2;
+}
+.new-emi1 {
+  width: 155px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.new-value {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  margin-top: -20px;
+}
+.saving-details,
+.saving-info {
+  position: absolute;
+  max-width: 100%;
+}
+.saving-info {
+  top: 0;
+  left: 36px;
+  width: 643px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.saving-details {
+  top: 21px;
+  left: 34px;
+  width: 679px;
+  height: 20px;
+}
+.container13,
+.e-m-i-saved {
+  border-radius: var(--br-xs);
+  z-index: 1;
+}
+.container13 {
+  height: 318px;
+  flex: 1;
+  position: relative;
+  background-color: var(--color-white);
+  min-width: 476px;
+  max-width: 100%;
+}
+.e-m-i-saved {
+  border: 0;
+  background-color: var(--color-darkslateblue-200);
+  height: 237px;
+  width: 452px;
+  outline: 0;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -164px;
+  left: 0;
+}
+.values {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 100%;
+}
+.final-values {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-4xs);
+}
+.container-parent,
+.final-result,
+.final-values,
+.saving-calculation,
+.transfer-info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.final-result {
+  width: 540px;
+  flex-direction: column;
+  gap: var(--gap-lg);
+  min-width: 540px;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkgray);
+}
+.container-parent,
+.saving-calculation,
+.transfer-info {
+  align-self: stretch;
+}
+.saving-calculation {
+  flex-direction: row;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray-100);
+}
+.container-parent,
+.transfer-info {
+  flex-direction: column;
+  gap: var(--gap-26xl);
+}
+.container-parent {
+  gap: var(--gap-lg);
+  font-size: var(--h3-size);
+  color: var(--website-color);
+}
+.container8 {
+  flex: 1;
+  box-shadow: 1px 4px 53.7px rgba(0, 0, 0, 0.08);
+  border-radius: var(--br-5xs);
+  background: linear-gradient(180deg, #00225d, #00163b);
+  border: 1px solid var(--color-cornflowerblue-200);
+  flex-direction: column;
+  padding: var(--padding-22xl) var(--padding-25xl) var(--padding-29xl);
+  gap: var(--gap-26xl);
+}
+.container7,
+.container8,
+.transfer-container-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.container7 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-6xs);
+  font-size: var(--h2-size);
+  color: var(--color-white);
+}
+.transfer-container-parent {
+  width: 1401px;
+  flex-direction: column;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-48xl);
+  text-align: left;
+  font-size: var(--h3-size);
+  color: var(--color-black);
+  font-family: var(--h3);
+}
+@media screen and (max-width: 1225px) {
+  .input-fields1 {
+    flex-wrap: wrap;
+  }
+  .new-rate-info {
+    flex: 1;
+  }
+  .container10 {
+    flex-wrap: wrap;
+  }
+  .final-result {
+    flex: 1;
+  }
+  .saving-calculation {
+    flex-wrap: wrap;
+  }
+  .container8 {
+    padding-left: var(--padding-3xl);
+    padding-right: var(--padding-3xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .container8 {
+    padding-top: var(--padding-8xl);
+    padding-bottom: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .new-rate-info {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+  .container13,
+  .final-result {
+    min-width: 100%;
+  }
+  .container8,
+  .transfer-info {
+    gap: var(--gap-3xl);
+  }
+  .container8 {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .transfer-container-parent {
+    gap: var(--gap-14xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .how-to-use2 {
+    font-size: var(--font-size-base);
+  }
+  .current-outstanding-loan-container {
+    font-size: var(--font-size-base);
+    line-height: 24px;
+  }
+  .container5 {
+    gap: var(--gap-mid);
+  }
+  .calculate-emi-interest1 {
+    font-size: var(--h3-size);
+    line-height: 28px;
+  }
+  .months1,
+  .new-interest-rate,
+  .rate-value1 {
+    font-size: var(--font-size-base);
+  }
+  .transfer-container-parent {
+    gap: var(--gap-mid);
+  }
+}

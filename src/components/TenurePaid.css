@@ -1,0 +1,143 @@
+.tenure-paid-child {
+  height: 64px;
+  width: 732px;
+  position: relative;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.loan-tenure {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  font-weight: 600;
+  z-index: 2;
+}
+.tenure-labels {
+  width: 199px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) 0 0;
+  box-sizing: border-box;
+}
+.frame-child8,
+.value-container-child {
+  height: 39px;
+  width: 196px;
+  position: relative;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-lavender);
+  display: none;
+}
+.value-container-child {
+  width: 123px;
+  background-color: var(--color-darkslateblue-100);
+}
+.btn-icon,
+.months {
+  position: relative;
+  z-index: 2;
+}
+.months {
+  letter-spacing: 0.03em;
+  line-height: 19.1px;
+  text-transform: capitalize;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 76px;
+}
+.btn-icon {
+  width: 9px;
+  height: 3.6px;
+}
+.value-btn1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-6xs-4);
+}
+.value-container {
+  flex: 1;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-darkslateblue-100);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-3xs-6) var(--padding-xs) var(--padding-2xs-3);
+  gap: var(--gap-3xs);
+  z-index: 1;
+}
+.value-placeholder {
+  position: relative;
+  letter-spacing: 0.03em;
+  line-height: 19.1px;
+  text-transform: capitalize;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 14px;
+  z-index: 1;
+}
+.paid-value {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-3xs-6);
+  color: var(--button);
+}
+.group-div,
+.tenure-paid {
+  border-radius: var(--br-4xs);
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.group-div {
+  width: 196px;
+  background-color: var(--color-lavender);
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xl) 0 0;
+  gap: var(--gap-11xl);
+  z-index: 2;
+  color: var(--color-white);
+}
+.tenure-paid {
+  flex: 1;
+  background-color: var(--color-white);
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-xs) var(--padding-13xl) var(--padding-smi)
+    var(--padding-19xl);
+  min-width: 476px;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  z-index: 1;
+  text-align: left;
+  font-size: var(--h3-size);
+  color: var(--website-color);
+  font-family: var(--h3);
+}
+@media screen and (max-width: 750px) {
+  .tenure-paid {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .loan-tenure,
+  .months,
+  .value-placeholder {
+    font-size: var(--font-size-base);
+  }
+  .months,
+  .value-placeholder {
+    line-height: 15px;
+  }
+}

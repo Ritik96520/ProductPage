@@ -1,0 +1,221 @@
+.home,
+.platform {
+  display: inline-block;
+}
+.platform {
+  position: relative;
+  font-weight: 600;
+  min-width: 99px;
+  z-index: 1;
+}
+.home {
+  min-width: 67px;
+}
+.faq,
+.get-in-touch,
+.home,
+.how-it-works {
+  position: relative;
+  background: linear-gradient(#f0f0f0, #f0f0f0),
+    linear-gradient(#f0f0f0, #f0f0f0), #f0f0f0;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  z-index: 1;
+}
+.faq {
+  display: inline-block;
+  min-width: 46px;
+}
+.links-columns,
+.platform-links-items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xl-9);
+}
+.links-columns {
+  gap: var(--gap-17xl-6);
+}
+.about {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 71px;
+  z-index: 1;
+}
+.information-links-items {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xs);
+}
+.about-us2 {
+  position: relative;
+  background: linear-gradient(#f0f0f0, #f0f0f0),
+    linear-gradient(#f0f0f0, #f0f0f0), #f0f0f0;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  min-width: 106px;
+  z-index: 1;
+}
+.about-us-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs) 0 var(--padding-2xs);
+}
+.careers {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 91px;
+  z-index: 1;
+}
+.careers-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xs);
+}
+.hiring-now {
+  position: relative;
+  font-size: var(--h3-size);
+  line-height: 8px;
+  font-weight: 500;
+  font-family: var(--h3);
+  color: var(--color-gold);
+  text-align: left;
+  display: inline-block;
+  min-width: 105px;
+}
+.careers-container,
+.hiring-now-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.hiring-now-container {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-2xs) var(--padding-sm);
+  background-color: var(--color-black);
+  border-radius: var(--br-10xs);
+  flex-direction: row;
+  white-space: nowrap;
+  z-index: 1;
+}
+.hiring-now-container:hover {
+  background-color: var(--color-darkslategray-100);
+}
+.careers-container {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-9xs);
+}
+.blog {
+  position: relative;
+  background: linear-gradient(#f0f0f0, #f0f0f0),
+    linear-gradient(#f0f0f0, #f0f0f0), #f0f0f0;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  min-width: 51px;
+  z-index: 1;
+}
+.blog-link-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xs);
+}
+.careers-link {
+  align-self: stretch;
+  gap: var(--gap-sm-3);
+}
+.about-us-link,
+.careers-link,
+.information-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.about-us-link {
+  align-self: stretch;
+  gap: var(--gap-4xl-9);
+  color: var(--color-white);
+}
+.information-links {
+  width: 144px;
+  padding: 0 var(--padding-mid) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-17xl-6);
+}
+.infromation {
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+}
+.grievance-officer,
+.privacy-policy,
+.refund-policy,
+.terms-of-use {
+  position: relative;
+  background: linear-gradient(#f0f0f0, #f0f0f0),
+    linear-gradient(#f0f0f0, #f0f0f0), #f0f0f0;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  z-index: 1;
+}
+.footer-links-container,
+.links-columns1,
+.privacy-policy-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xl-9);
+}
+.footer-links-container,
+.links-columns1 {
+  gap: var(--gap-17xl-6);
+}
+.footer-links-container {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-cornflowerblue-100);
+  font-family: var(--h3);
+}
+@media screen and (max-width: 750px) {
+  .footer-links-container {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .about,
+  .about-us2,
+  .blog,
+  .careers,
+  .faq,
+  .get-in-touch,
+  .grievance-officer,
+  .home,
+  .how-it-works,
+  .infromation,
+  .platform,
+  .privacy-policy,
+  .refund-policy,
+  .terms-of-use {
+    font-size: var(--font-size-lgi);
+  }
+}
